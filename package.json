@@ -1,0 +1,26 @@
+{
+  "description": "no comando deve-se passar o argumento de qual login usar, npm run scan --login='brave'",
+  "scripts": {
+    "build": "tsc",
+    "latest": "ts-node src/latest.ts",
+    "tojson": "ts-node src/tojson.ts",
+    "scan": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/node-localstorage": "^1.3.3",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.48.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.48.0",
+    "dotenv": "^17.2.3",
+    "node-localstorage": "^3.0.5",
+    "puppeteer": "^24.26.1"
+  }
+}

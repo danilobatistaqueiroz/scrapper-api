@@ -1,0 +1,27 @@
+curl --location 'https://www.instagram.com/41414870812/followers/?count=12&max_id=12&search_surface=follow_list_page' \
+--header 'Host: www.instagram.com' \
+--header 'Accept-Encoding: gzip, deflate, br, zstd' \
+--header 'Referer: https://www.instagram.com/veus_comamor/followers/' \
+--header 'Cookie: mid=Z_57ZAAEAAHONgrp53SMtRVuB11o; ig_did=45412657-8B5A-4792-9CCB-B2838A5F3AD0; ig_nrcb=1; datr=ZncaaEOWhG1ChfMd2dUnOrsW; ps_l=1; ps_n=1; csrftoken=YccIVXeU41aNrMnI3FtlowaGPlBSX3tj; ds_user_id=77089262117; sessionid=77089262117%3Akw7Z8rLnoC9jTf%3A15%3AAYhGOt9CScHJSGka0F2mlbpBGa-F7PzogtGflheTnO2J; wd=800x600; rur="LDC\05477089262117\0541793233833:01fec644fd5c56ef1b6ed4cb8a4edc044873702f5720f652674066868e7cd239540f2fbe"; csrftoken=YccIVXeU41aNrMnI3FtlowaGPlBSX3tj; ds_user_id=77089262117; rur="LDC\05477089262117\0541793239727:01feb899c85f49c1b034aa029ed76595770ea7e19dec02c5e97a8951ff37a7b64f7f51d7"' \
+--header 'X-CSRFToken: YccIVXeU41aNrMnI3FtlowaGPlBSX3tj' \
+--header 'X-IG-WWW-Claim: hmac.AR3theffZC9TcqBG1z4fX-UjV0-NL49wtALv-XDXszkgKFC7' \
+--header 'X-ASBD-ID: 359341' \
+--header 'X-IG-App-ID: 936619743392459' \
+--header 'sec-ch-ua: "Chromium";v="130", "Opera";v="115", "Not?A_Brand";v="99"' \
+--header 'sec-ch-ua-full-version-list: "Chromium";v="130.0.6723.170", "Opera";v="115.0.5322.119", "Not?A_Brand";v="99.0.0.0"' \
+--header 'sec-ch-prefers-color-scheme: light' \
+--header 'TE: trailers' \
+--header 'Accept-Language: en-US,en;q=0.5' \
+--header 'X-Web-Session-ID: iqpbps:1mer8k:niwesi' \
+--header 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0' \
+--header 'Alt-Used: www.instagram.com' \
+--header 'X-Requested-With: XMLHttpRequest' \
+--header 'sec-ch-ua-mobile: ?0' \
+--header 'sec-ch-ua-model: ""' \
+--header 'sec-ch-ua-platform: "Linux"' \
+--header 'sec-ch-ua-platform-version: "6.8.0"' \
+--header 'sec-fetch-dest: empty' \
+--header 'sec-fetch-mode: cors' \
+--header 'sec-fetch-site: same-origin' 
+--compressed 
+--output result.json

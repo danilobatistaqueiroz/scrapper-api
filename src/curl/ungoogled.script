@@ -1,0 +1,21 @@
+curl --location 'https://www.instagram.com/api/v1/friendships/62056648410/followers/?count=12&search_surface=follow_list_page' \
+--header 'Host: www.instagram.com' \
+--header 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0' \
+--header 'Accept-Language: en-US,en;q=0.5' \
+--header 'Accept-Encoding: gzip, deflate, br, zstd' \
+--header 'X-CSRFToken: DRzBDoRBb1GmStrwG7ydpjogLtBYdiSO' \
+--header 'X-IG-App-ID: 936619743392459' \
+--header 'X-ASBD-ID: 359341' \
+--header 'X-IG-WWW-Claim: hmac.AR3NCWsq7KEiJhp-7fYk3Vv-C37mSboLxZuW1xUBCAFGM0sy' \
+--header 'X-Web-Session-ID: drt0jb:gnvy1m:019q7g' \
+--header 'X-Requested-With: XMLHttpRequest' \
+--header 'Alt-Used: www.instagram.com' \
+--header 'Connection: keep-alive' \
+--header 'Referer: https://www.instagram.com/mocidade_dv/followers/' \
+--header 'Cookie: mid=Z7EqdgAEAAFXIU9ggzWe5iZuTmqr; ig_did=476DAAAB-0C13-41E1-A1C4-5B516D9B98BB; ig_nrcb=1; datr=eyqxZ7_Z1BkmTO5At2bjLjMF; ps_l=1; ps_n=1; wd=1865x907; ds_user_id=64634560344; csrftoken=DRzBDoRBb1GmStrwG7ydpjogLtBYdiSO; sessionid=64634560344%3AHSp9wxyEKoojKp%3A0%3AAYi-JDRMX1Pvf5KqLIxrjUU8D0uAGgG1LI46nbcid3U; rur="NHA\05464634560344\0541793286968:01fec3ec917de2f858f10353fb1b7cd6174876d5d69d0217bb4c9cf6cbf9ac0fecb6ae3c"' \
+--header 'Sec-Fetch-Dest: empty' \
+--header 'Sec-Fetch-Mode: cors' \
+--header 'Sec-Fetch-Site: same-origin' \
+--header 'TE: trailers' \
+--compressed \
+--output result.json
